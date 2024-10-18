@@ -1,30 +1,13 @@
-# Python files
-*.pyc
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
-# CDK asset files
+# CDK
 cdk.out/
 cdk.context.json
 
-# Node.js dependencies
-node_modules/
-package-lock.json
-
-# Virtual environment
-.venv/
+# General
 .env
-
-# IDE specific files
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# User-specific config
-*.env
-
