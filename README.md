@@ -123,9 +123,3 @@ To deploy this project, ensure you have the following:
 - Ensure that your AWS account has sufficient permissions to create all resources.
 - Check that your AWS CLI is properly configured with the right region and credentials.
 - If deployment fails, verify that your security groups are configured correctly and that all dependencies are installed.
-
-## Future Enhancements
-
-- **Auto Scaling**: Add auto-scaling policies for the EC2 instances to automatically handle increased traffic.
-- **Monitoring and Alarms**: Integrate AWS CloudWatch to monitor the health of the instances and the load balancer and set up alarms for potential issues.
-- **CI/CD Pipeline**: Use AWS CodePipeline or GitHub Actions to automate the deployment of the infrastructure and the application.
